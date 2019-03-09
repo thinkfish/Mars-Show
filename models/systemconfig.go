@@ -4,7 +4,7 @@ import "./basemodel.go"
 
 type SystemConfig struct {
 	BaseModel
-	ConfigKey string
+	ConfigKey   string
 	ConfigValue string
-	Status int
+	Status      int
 }
